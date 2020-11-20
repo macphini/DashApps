@@ -15,7 +15,7 @@ card_header = dbc.Row([
                 html.Div('Breast Cancer Prediction Analytics')
                 ], className= ['ml-4', 'mr-4', 'mt-4', 'mb-4'], style = {'align-items':'center', 'font-size':'30px'})
             ], width=11),
-            dbc.Col([html.Img(src =app.get_asset_url('logo.jfif'), style={'height':'50px', 'margin-top':'1.5rem', 'margin-right':'2rem'})], width=1)
+            dbc.Col([html.Img(src ='./assets/logo.jfif', style={'height':'50px', 'margin-top':'1.5rem', 'margin-right':'2rem'})], width=1)
 ])
 
 # content_card = dbc.card([
