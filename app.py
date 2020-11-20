@@ -7,6 +7,7 @@ import plotly.express as px
 import pandas as pd
 
 app = dash.Dash(external_stylesheets=[dbc.themes.DARKLY])
+server = app.sever
 
 card_header = dbc.Row([
             dbc.Col([dbc.Card([
@@ -24,5 +25,5 @@ app.layout = card_header
 
 
 if __name__ == '__main__':
-    app.run_server(port=8050, debug=True)
+    app.run_server(debug=True)
 
