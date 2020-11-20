@@ -3,3 +3,4 @@ numpy
 dash
 pandas
 dash_bootstrap_components
+gunicorn==20.0.4
